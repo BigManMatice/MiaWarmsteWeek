@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warmste Week @Mia</title>
+    <link rel="stylesheet" href="/WarmteWeek/klassen/styleKlas.css">
+    <link rel="icon" href="afbeelding/favicon.ico">
+    <script src="../scripts.js"></script>
+</head>
+<body>
+    <marquee vspace="0" behavior="scroll" bgcolor="#ff9900" height="75" scrollamount="11" direction="left" align-items="center">
+        <font color="#ffffff" face="fantasy" size="+2">
+            Kom naar B00 voor een leuke foto voor het goeie doel van De Warmste Week voor maar €0.20
+        </font>
+    </marquee>
+
+    <div id="navbar"></div>
+
+    <div class="image-gallery">
+        <div class="image-container">
+            <img src="foto's/image1.jpg" alt="Image 1" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="foto's/image2.jpg" alt="Image 2" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="foto's/image3.jpg" alt="Image 3" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="foto's/image4.jpg" alt="Image 4" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="foto's/image5.jpg" alt="Image 5" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="foto's/image6.jpg" alt="Image 5" class="gallery-image">
+        </div>
+    </div>
+    
+    <!-- Modal for enlarged image -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="enlargedImage">
+        <a class="prev" id="prev">&#10094;</a>
+        <a class="next" id="next">&#10095;</a>
+        <div class="image-counter" id="imageCounter">0/0</div>
+    </div>
+    
+    <script src="fotoScript.js"></script>
+<!--
+    <-- Input field for uploading images ->
+    <input type="file" id="imageUpload" accept="image/*" multiple>
+
+    <-- Image grid container ->
+    <div class="image-grid" id="imageGrid"></div>
+
+    <-- Modal for enlarged image ->
+    <div class="modal" id="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img id="modalImage" alt="Enlarged Image">
+    </div> -->
+
+   
+</body>
+</html>
